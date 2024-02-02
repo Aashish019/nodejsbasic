@@ -30,10 +30,10 @@ http
     } else if (q.pathname === "/signupaction") {
         res.writeHead(200, { "Content-Type": "text/html" });
         console.log(q.query)
-        console.log(q.query.fname)
-        console.log(q.query.uname)
-        console.log(q.query.email)
-        console.log(q.query.phone)
+        // console.log(q.query.fname)
+        // console.log(q.query.uname)
+        // console.log(q.query.email)
+        // console.log(q.query.phone)
       res.write('<h1>'+q.query.fname+'<h1>');
       res.end();
     } else {
